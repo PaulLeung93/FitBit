@@ -62,8 +62,9 @@ class MainActivity : AppCompatActivity() {
             }
 
             nutritionList.clear()
-            finish();
-            startActivity(getIntent());
+//            finish();
+//            startActivity(getIntent());
+            nutritionAdapter.notifyDataSetChanged()
         }
 
 
